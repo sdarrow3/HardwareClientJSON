@@ -2,7 +2,10 @@
     "plugins": [
         {
             "name":"RevHub",
-            "url":"https://pastebin.com/raw/FktYrE6E"
+            "url":"https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/RevHubPlugin.json"
+        }, {
+            "name":"SparkMax",
+            "url":"https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/SparkMaxPlugin.json"
         }
     ], 
     "logUploadUrl":"https://log-upload-url.test",
