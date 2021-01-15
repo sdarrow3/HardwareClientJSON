@@ -1,0 +1,33 @@
+{
+  "latestSoftware": [
+    {
+      "permanentSoftwareName": "spark-max-firmware",
+      "versionString": "1.5.2",
+      "versionCode": 17104898,
+      "releaseDate": "2020-07-17T18:25:43.511Z",
+      "sha256": "28a28a4bec85bf82d2e333a31b6080e4491d1897a7e470c145d6ae358339ebee",
+      "expectedFileSizeMiB": 0.0744,
+      "url": "https://www.revrobotics.com/content/sw/max/firmware/SPARK-MAX-FW-v1.5.2.dfu",
+      "releaseNotes": 
+        "## VERSION 1.5.2\n * Fixes issue with the kDataPortConfig parameter not enabling Alternate Encoder Mode on a power cycle after it has been configured and saved to flash.\n * Improves Gate Driver Fault recovery.\n\n"
+    }
+], "oldVersions": [
+{
+      "permanentSoftwareName": "spark-max-firmware",
+      "versionString": "1.5.1",
+      "versionCode": 17104897,
+      "sha256": "7289857ed6b48a5a229fe54a2e3241a1e8df273e9af0519c0554549675d13b09",
+      "expectedFileSizeMiB": 0.0742,
+      "url": "https://www.revrobotics.com/content/sw/max/firmware/SPARK-MAX-FW-v1.5.1.dfu",
+      "releaseNotes": "## VERSION 1.5.1 \n* Improvements to BLDC commutation timing. \n\t* Most noticeable at high RPMs only achievable by the NEO 550.\n *Fixes rare case where the SPARK MAX Status LED shows normal driving but no actual output is occurring until a reboot of the controller.\n\n"
+}, {
+      "permanentSoftwareName": "spark-max-firmware",
+      "versionString": "1.5.0",
+      "versionCode": 17104896,
+      "sha256": "65e1def3e946fd63de34deaa5cc0a809225b1ac06b1925db5d1f0be8922363c2",
+      "expectedFileSizeMiB": 0.0742,
+      "url": "https://www.revrobotics.com/content/sw/max/firmware/SPARK-MAX-FW-v1.5.0.dfu",
+      "releaseNotes": "## VERSION 1.5.0 \n * Version 1.5.0 Changes\n\t * Adds a unique hash key to the firmware. This key is a hashed value based on the unique 96-bit device ID guaranteed to be unique for every STM32 device. The hash value itself is 32-bits to make transmission/reception and on-board comparison easier. It is unlikely for a key collision especially since most buses have only a small number of devices.\n\t * Adds ID Query command to have all devices which match the CAN ID sent to return their unique hash key. This is typically used to identify all devices with CAN ID 0 but can be used to identify devices with conflicting CAN IDs.\n\t * Adds ID Assign command, which sends a unique hash key and a CAN ID, which is received by any device whose CAN ID matches the ID field. The device whose unique hash matches has their own CAN ID set to the desired value. This is for initial or automatic provisioning, or to re-address devices with the same CAN ID.\n\t * Adds identify command which flashes the LED blue/magenta. This command uses the CAN ID, or the unique hash if CAN ID = 0.\n\t * Complete overhaul of USB interface, creating a generic USB-to-CAN driver connection to act as the bridge to the interface.\n\t * Adds Alternate Encoder Mode for BLDC external encoder support.\n\t * Adds device manufacturing info to firmware frame.\n\t * Adds retry frame to CAN bootloader if there is an issue.\n * Version 1.4.1 Changes\n\t * Fixes issue where creating a CANSparkMax object would cause the SensorType parameter to be set to NoSensor.\n\n##  VERSION 1.4.0 \n * Version 1.4.0 Changes \n\t * Adds non-competition heartbeat command when not used with a roboRIO. \n\t * Adds Raspbian support using official WPILib tools. \n\t * Adds locking mechanism to prevent simultaneous USB and CAN commands. \n\t * Proportional blink codes now match inversion settings (i.e. positive input is always green, and negative input is always red).\n\t * Limit switch and soft limits now follow inversion settings.\n\t * Motor controller inversion now in the firmware instead of the API.\n\t * Adds a configurable range for absolute feedback devices (currently only applicable to an absolute mode analog sensor), which also prevents users from setting a setpoint out of range.\n\t * Adds ability to use both absolute and relative analog sensors as feedback devices\n\t * Adds filtering for Analog sensor with settings for velocity moving average filter\n\t * Adds ability to configure how errors are tracked and handled by the user.\n\t * Calls can be automatically registered and tracked, with any errors displayed to the DriverStation or users can use the GetLastError() after calls to determine if an error has been thrown. This is done by changing the error timeout through SetCANTimeout(), where a timeout of 0 means that the calls are non-blocking, and errors are checked in a separate thread and sent through to the driver station.\n\t * Other minor improvements and bug fixes. \n * Version 1.3.0 Changes\n\t * Ability to configure the feedback device for the PIDController.\n\t * Addition of CANAnalog which will function as a possible feedback device.\n\t * Added API for using encoders with brushed DC motors.\n\t * Adds API to enable and set soft limits.\n\t * All control modes now reset integrator on limit switch activation for long as the limit switch is held.\n\t * Smart Motion now honors acceleration rate after limit switch changes from triggered to not triggered.\n\t * Fixes issue where sticky faults can be cleared incorrectly when a new fault is set and the old fault is no longer present.\n\t * Adds status 3 periodic frame for analog sensor.\n\t * Other minor improvements and bug fixes.\n * Version 1.2.1 Changes\n\t * Adds initial CAN bootloading functionality.\n\t * Requires continuous power during update and requires USB recovery if the update fails after erasing the flash (i.e. power is lost during update).\n\t * This is not yet integrated into a formal tool, but is exposed in the API. Future versions will allow recovery over CAN.\n\t * Fix to bus voltage measurement, previous version reported a lower value.\n\t * Additional accuracy improvements to all ADC measurements.\n\t * Adds additional filtering to bus voltage.\n\t * Fix for Follow settings not being reapplied after power cycle.\n\t * Adds ability to change units for arbFF between voltage and percent bus voltage (or percent compensated voltage)."
+}
+]
+}

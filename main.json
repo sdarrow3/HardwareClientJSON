@@ -1,0 +1,10 @@
+{
+    "plugins": [
+        {
+            "name":"RevHub",
+            "url":"https://pastebin.com/raw/FktYrE6E"
+        }
+    ], 
+    "logUploadUrl":"https://log-upload-url.test",
+    "reportAnIssueFormUrl":"https://form.jotform.com/202376962791162"
+}
