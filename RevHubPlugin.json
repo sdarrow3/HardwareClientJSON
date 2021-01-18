@@ -54,6 +54,7 @@
 			"permanentSoftwareName":"hub-firmware",
 			"releaseDate":"2018-07-15T9:25:43.511Z",
 			"releaseNotes":"## Version 1.7.2\n* Fixes a bug where encoder counts would occasionally reset.",
+			"sha256":"4201298698683f8af3a9c695ef5bc46af675f80a4fdb6c62010a8eed11374a69",
 			"url":"https://www.revrobotics.com/content/sw/REVHubFirmware_1_07_02.bin",
 			"versionCode":3,
 			"versionString":"1.7.2"
@@ -63,6 +64,7 @@
 			"releaseDate":"2018-07-15T9:25:43.511Z",
 			"releaseNotes":"## Version 1.7.0\n* Fixes a bug where some I2C sensors can lock up the bus causing other additional performance issues.\n* Added new status LED blink code:\n\t* Blinking orange indicates the Hub is only powered over USB. In other words, turn on your main power switch!\n* Other minor performance tweaks.",
 			"url":"https://www.revrobotics.com/content/sw/REVHubFirmware_1_07_00.bin",
+			"sha256":"68aa1b0e5ba42a369b95d25e608ab579e908fa0d9e4edf37e6b1109b8294072c",
 			"versionCode":2,
 			"versionString":"1.7.0"
 		},{
