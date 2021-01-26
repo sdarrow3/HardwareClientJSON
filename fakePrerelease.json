@@ -1,0 +1,15 @@
+{
+  "latestSoftware": [
+    {
+      "permanentSoftwareName": "fake-application",
+      "versionString": "1.3",
+      "versionCode": 4,
+      "releaseDate": "2020-07-17T18:25:43.511Z",
+      "sha256": "3CB83605B2F426C00CC7263341D8039B56294DCD35092EA5A35782D49645AC39",
+      "expectedFileSizeMiB": 0.068,
+      "url": "https://www.revrobotics.com/content/sw/REVHubFirmware_1_08_02.bin",
+      "releaseNotes": 
+        "## Version 1.3\n * Added new 1.3 things\n * Fixed issues with 1.2\n\n"
+    }
+  ]
+}
