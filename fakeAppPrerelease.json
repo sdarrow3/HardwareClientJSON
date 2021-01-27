@@ -7,7 +7,7 @@
       "releaseDate": "2020-07-17T18:25:43.511Z",
       "sha256": "94c5e5ba4a86b81a99fa88ff8a14856f37d5faf7c77361437be988e89682b930",
       "expectedFileSizeMiB": 40.0,
-      "url": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/downloads/fakeRCApp6_2.txt",
+      "url": "https://github.com/sdarrow3/HardwareClientJSON/blob/master/downloads/fakeRCApp6_2.apk?raw=true",
       "releaseNotes": 
         "## Version 6.2\n * Fake Version"
     }
