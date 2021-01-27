@@ -1,0 +1,15 @@
+{
+  "fakeCode": [
+    {
+      "permanentSoftwareName":"robot-controller-app",
+      "versionString": "6.2",
+      "versionCode": 40,
+      "releaseDate": "2020-07-17T18:25:43.511Z",
+      "sha256": "3CB83605B2F426C00CC7263341D8039B56294DCD35092EA5A35782D49645AC39",
+      "expectedFileSizeMiB": 40.0,
+      "url": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/downloads/fakeRCApp6_2.txt",
+      "releaseNotes": 
+        "## Version 6.2\n * Fake Version"
+    }
+  ]
+}
