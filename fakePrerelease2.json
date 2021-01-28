@@ -2,14 +2,14 @@
   "fakeCode2": [
     {
       "permanentSoftwareName": "fake-application",
-      "versionString": "1.4",
-      "versionCode": 5,
+      "versionString": "1.2",
+      "versionCode": 3,
       "releaseDate": "2020-07-17T18:25:43.511Z",
       "sha256": "26bbd2b0251e9566c52c12a8ce880ce6a1bcd19707079a9a82e94b5f59e3ace3",
       "expectedFileSizeMiB": 0.068,
       "url": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/downloads/fakeApplication1_4.txt",
       "releaseNotes": 
-        "## Version 1.3\n * Added new 1.3 things\n * Fixed issues with 1.2\n\n"
+        "## Version 1.2\n * Added new 1.5 things\n * Fixed issues with 1.5\n\n"
     }
   ]
 }
