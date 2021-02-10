@@ -5,8 +5,8 @@
 			"permanentSoftwareName":"driver-hub-os",
 			"releaseDate":"2021-01-08T17:45:24.910Z",
 			"releaseNotes":"## 0.0.3\n* Makes lots of tweaks and fixes to the power management code\n* Auto-grants runtime permissions to pre-installed DS app\n* Auto-launches DS app on boot (by default)\n* Removes letters from lockscreen PIN keypad\n* Improves behavior of the Display Size setting\n* Enables [Doze mode](https://developer.android.com/training/monitoring-device-state/doze-standby) to improve standby times\n* Increases default volume\n* Shows battery percentage in status bar by default\n\n## 0.0.2\n\n* Allows the device to be used with the ports facing downwards\n* Fixes issue where time updates would not be written to the real-time clock due to insufficient permissions",
-			"sha256":"8B70CE3D9653A9A3878123C9054144F875179DA3E60F32F45769B513C20812C4",
-			"url":"https://www.revrobotics.com/content/sw/rev-hw-client/files/driverhub/DriverHubOS-0.0.3.zip",
+			"sha256":"845018EA2B792D06ADE0B5796527FE412217C56924D9E3DCBBF36637CEE051C9",
+			"url":"https://www.revrobotics.com/content/sw/rev-hw-client/files/controlhub/ControlHubOS-1.1.2.zip",
 			"versionCode":2,
 			"versionString":"0.0.3"
 		},{
