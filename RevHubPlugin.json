@@ -5,10 +5,10 @@
 			"permanentSoftwareName":"driver-hub-os",
 			"releaseDate":"2021-01-08T17:45:24.910Z",
 			"releaseNotes":"## 0.0.2\n\n* Allows the device to be used with the ports facing downwards\n* Fixes issue where time updates would not be written to the real-time clock due to insufficient permissions",
-			"sha256":"AEB61B525A289F14D9D4C2A1FAF3074E4D9CC324C16D00EE94D2A9B8C6DDB74D",
-			"url":"https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases/download/v6.1/FtcDriverStation-release.apk",
-			"versionCode":39,
-			"versionString":"6.1"
+			"sha256":"845018EA2B792D06ADE0B5796527FE412217C56924D9E3DCBBF36637CEE051C9",
+			"url":"https://www.revrobotics.com/content/sw/rev-hw-client/files/controlhub/ControlHubOS-1.1.2.zip",
+			"versionCode":2,
+			"versionString":"0.0.3"
 		},{
 			"expectedFileSizeMiB":34,
 			"permanentSoftwareName":"driver-station-app",
