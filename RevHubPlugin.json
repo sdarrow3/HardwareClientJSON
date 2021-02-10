@@ -5,8 +5,8 @@
 			"permanentSoftwareName":"driver-hub-os",
 			"releaseDate":"2021-01-08T17:45:24.910Z",
 			"releaseNotes":"## 0.0.3\n* Makes lots of tweaks and fixes to the power management code\n* Auto-grants runtime permissions to pre-installed DS app\n* Auto-launches DS app on boot (by default)\n* Removes letters from lockscreen PIN keypad\n* Improves behavior of the Display Size setting\n* Enables [Doze mode](https://developer.android.com/training/monitoring-device-state/doze-standby) to improve standby times\n* Increases default volume\n* Shows battery percentage in status bar by default\n\n## 0.0.2\n\n* Allows the device to be used with the ports facing downwards\n* Fixes issue where time updates would not be written to the real-time clock due to insufficient permissions",
-			"sha256":"94c5e5ba4a86b81a99fa88ff8a14856f37d5faf7c77361437be988e89682b930",
-			"url":"https://github.com/sdarrow3/HardwareClientJSON/blob/master/downloads/fakeRCApp6_2.apk",
+			"sha256":"3CB83605B2F426C00CC7263341D8039B56294DCD35092EA5A35782D49645AC39",
+			"url":"https://www.revrobotics.com/content/sw/REVHubFirmware_1_08_02.bin",
 			"versionCode":2,
 			"versionString":"0.0.3"
 		},{
