@@ -1,6 +1,8 @@
 {
-  "RevHub": [
-  {
+  "channelName": "Public FTC Beta",
+  "plugins": {
+  	"RevHub": [
+  		{
 			"expectedFileSizeMiB":34,
 			"permanentSoftwareName":"driver-station-app",
 			"sha256":"aeb61b525a289f14d9d4c2a1faf3074e4d9cc324c16d00ee94d2a9b8c6ddb74d",
@@ -11,5 +13,6 @@
 			"versionString":"7.0"
 	
 		}
-  ]
+  	]
+  }
 }
