@@ -24,8 +24,8 @@
 			"permanentSoftwareName":"control-hub-os",
 			"releaseDate":"2020-12-16T22:56:27.773Z",
 			"releaseNotes":"## Version 1.1.2 Changes\n\n* Adds support for Auto Channel Selection, where the Control Hub will pick the least busy WiFi channel on the selected WiFi band when it starts up\n* Migrates all users to Auto Channel Selection on the 5 GHz band by default.\n    * If you find that you are unable to connect to the Control Hub after updating, you should perform a WiFi Factory Reset by holding down the Control Hub's button as it boots, until you see a colorful light sequence. That will reset the WiFi settings and switch to the 2.4 GHz WiFi band.\n* Allows switching the WiFi band between 2.4 GHz and 5 GHz by holding down the Control Hub's button when the hub has been booted for at least 20 seconds\n    * If version 5.5 or later of the Robot Controller app is installed, the Control Hub's light will blink magenta when the band is switched to 5 GHz, or yellow when the band is switched to 2.4 GHz.\n* Continuously monitors the WiFi access point status, and will attempt to restart it if it goes down for any reason\n* Continuously monitors the Robot Controller app, and restarts it if it crashes or hangs (requires version 6.1 or later of the Robot Controller app)\n* Allows the Robot Controller app to access the current WiFi band and channel\n* Always backs up the FTC Robot Controller app data before it is uninstalled, in order to preserve WiFi settings\n* Improves WiFi reliability\n* Prevents issue that could cause device to boot into recovery mode\n* Enables use of mouse button in recovery mode\n\n",
-			"sha256":"3CB83605B2F426C00CC7263341D8039B56294DCD35092EA5A35782D49645AC39",
-			"url":"https://www.revrobotics.com/content/sw/REVHubFirmware_1_08_02.bin",
+			"sha256":"845018EA2B792D06ADE0B5796527FE412217C56924D9E3DCBBF36637CEE051C9",
+			"url":"https://www.revrobotics.com/content/sw/rev-hw-client/files/controlhub/ControlHubOS-1.1.2.zip",
 			"versionCode":6,
 			"versionString":"1.1.2"
 		},{
