@@ -1,0 +1,13 @@
+{
+  "SparkMax" : [{
+      "permanentSoftwareName": "spark-max-firmware",
+      "versionString": "2.0.0",
+      "versionCode": 33554432,
+      "releaseDate": "2020-07-17T18:25:43.511Z",
+      "sha256": "28a28a4bec85bf82d2e333a31b6080e4491d1897a7e470c145d6ae358339ebee",
+      "expectedFileSizeMiB": 0.0744,
+      "url": "https://www.revrobotics.com/content/sw/max/firmware/SPARK-MAX-FW-v1.5.2.dfu",
+      "releaseNotes": 
+        "## VERSION 2.0.0\n * Fake Update"
+    }]
+}
