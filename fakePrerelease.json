@@ -1,15 +1,30 @@
 {
-  "fakeCode": [
-    {
-      "permanentSoftwareName": "fake-application",
-      "versionString": "1.3",
-      "versionCode": 4,
-      "releaseDate": "2020-07-17T18:25:43.511Z",
-      "sha256": "73033cd178c0639070deae157cb21495f1cd946ac01b683d7e2ffd23d15b8ef2",
-      "expectedFileSizeMiB": 0.068,
-      "url": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/downloads/fakeApplication1_3.txt",
-      "releaseNotes": 
-        "## Version 1.3\n * Added new 1.3 things\n * Fixed issues with 1.2\n\n"
-    }
-  ]
+  "channelName": "Fake Channel",
+  "plugins": {
+    "Fake": [
+      {
+        "permanentSoftwareName": "fake-application",
+        "versionString": "1.3",
+        "versionCode": 4,
+        "releaseDate": "2020-07-17T18:25:43.511Z",
+        "sha256": "73033cd178c0639070deae157cb21495f1cd946ac01b683d7e2ffd23d15b8ef2",
+        "expectedFileSizeMiB": 0.068,
+        "url": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/downloads/fakeApplication1_3.txt",
+        "releaseNotes": 
+          "## Version 1.3\n * Added new 1.3 things\n * Fixed issues with 1.2\n\n"
+      }
+    ], "RevHub": [
+      {
+        "permanentSoftwareName":"robot-controller-app",
+        "versionString": "6.2",
+        "versionCode": 40,
+        "releaseDate": "2020-07-17T18:25:43.511Z",
+        "sha256": "94c5e5ba4a86b81a99fa88ff8a14856f37d5faf7c77361437be988e89682b930",
+        "expectedFileSizeMiB": 40.0,
+        "url": "https://github.com/sdarrow3/HardwareClientJSON/blob/master/downloads/fakeRCApp6_2.apk",
+        "releaseNotes": 
+          "## Version 6.2\n * Fake Version"
+      }
+    ]
+  }
 }
