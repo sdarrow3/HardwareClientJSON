@@ -1,0 +1,15 @@
+{
+  "RevHub": [
+  {
+			"expectedFileSizeMiB":34,
+			"permanentSoftwareName":"driver-station-app",
+			"sha256":"aeb61b525a289f14d9d4c2a1faf3074e4d9cc324c16d00ee94d2a9b8c6ddb74d",
+			"releaseDate":"2020-12-16T22:56:27.773Z",
+			"releaseNotes":"## Version 7.0\n\n* Fake Update",
+			"url":"https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases/download/v6.1/FtcDriverStation-release.apk",
+			"versionCode":45,
+			"versionString":"7.0"
+	
+		}
+  ]
+}
