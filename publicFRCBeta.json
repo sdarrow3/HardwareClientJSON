@@ -1,4 +1,6 @@
 {
+  "channelName": "Public FRC Beta",
+  "plugins": {
   "SparkMax" : [{
       "permanentSoftwareName": "spark-max-firmware",
       "versionString": "2.0.0",
@@ -10,4 +12,5 @@
       "releaseNotes": 
         "## VERSION 2.0.0\n * Fake Update"
     }]
+  }
 }
