@@ -11,5 +11,6 @@
     "logUploadUrl":"https://server031.revrobotics.com/upload",
     "reportAnIssueFormUrl":"https://form.jotform.com/202376962791162",
     "prereleaseCodeUrl":"http://localhost:3300/prereleaseCode",
-    "publicChannels": ["Public FRC Beta", "Public FTC Beta"]
+    "publicChannels": ["Public FRC Beta", "Public FTC Beta"],
+    "hideSoftwareChannels": "true"
 }
