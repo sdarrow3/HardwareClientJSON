@@ -12,7 +12,7 @@
 			}]
 		},
 		{"name": "Power Distribution Panel", "arbIds": [134564032], "usbIds":[]},
-		{"name": "Talon SRX Test", "arbIds": [33821760], "usbIds":[]},
+		{"name": "Talon SRX", "arbIds": [33821760], "usbIds":[]},
 		{"name": "roboRIO", "arbIds": [134487104], "usbIds":[], "timeoutMs":5000}
 	]
 }
