@@ -2,11 +2,13 @@
     "plugins": [
         {
             "name":"RevHub",
-            "url":"https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/RevHubPlugin.json",
-            "additionalFiles": ["https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/CanDevices.json"]
+            "url":"https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/RevHubPlugin.json"
         }, {
             "name":"SparkMax",
             "url":"https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/SparkMaxPlugin.json"
+        }, {
+            "name": "CanBus",
+            "additionalFiles": ["https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/CanDevices.json"]
         }
     ], 
     "logUploadUrl":"https://server031.revrobotics.com/upload",
