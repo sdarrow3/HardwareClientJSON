@@ -1,0 +1,9 @@
+version: 1.2.0
+files:
+  - url: REV-Hardware-Client-Setup-1.0.0.exe
+    sha512: LUIlCJ1NXpwn1C4zaRFWhSH/6nSQcZpItcjO+JA41WnQh+ZgE8kSfFyOHrwpL+Hr0hNYuPKElwgy8wUTUH7pFQ==
+    size: 66214520
+path: REV-Hardware-Client-Setup-1.0.0.exe
+sha512: LUIlCJ1NXpwn1C4zaRFWhSH/6nSQcZpItcjO+JA41WnQh+ZgE8kSfFyOHrwpL+Hr0hNYuPKElwgy8wUTUH7pFQ==
+releaseDate: '2020-09-09T23:03:48.539Z'
+releaseNotes: "Release Notes"
