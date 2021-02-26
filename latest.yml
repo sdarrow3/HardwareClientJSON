@@ -1,4 +1,4 @@
-version: 1.3.0
+version: 1.3.1
 files:
   - url: REV-Hardware-Client-Setup-1.0.0.exe
     sha512: LUIlCJ1NXpwn1C4zaRFWhSH/6nSQcZpItcjO+JA41WnQh+ZgE8kSfFyOHrwpL+Hr0hNYuPKElwgy8wUTUH7pFQ==
@@ -6,4 +6,4 @@ files:
 path: REV-Hardware-Client-Setup-1.0.0.exe
 sha512: LUIlCJ1NXpwn1C4zaRFWhSH/6nSQcZpItcjO+JA41WnQh+ZgE8kSfFyOHrwpL+Hr0hNYuPKElwgy8wUTUH7pFQ==
 releaseDate: '2020-09-09T23:03:48.539Z'
-releaseNotes: "Release Notes"
+releaseNotes: "#Release Notes\n * Note 1 \n * Note 2"
