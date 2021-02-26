@@ -16,5 +16,5 @@
     "prereleaseCodeUrl":"http://localhost:3300/prereleaseCode",
     "publicChannels": ["Public FRC Beta", "Public FTC Beta"],
     "showSoftwareChannels": "true",
-    "updateFeedUrl": "http://localhost:3300/prereleaseCode"
+    "updateFeedUrl": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master"
 }
