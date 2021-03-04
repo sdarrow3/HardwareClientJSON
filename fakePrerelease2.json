@@ -27,5 +27,6 @@
           "## Version 5.0\n * Very old prerelease"
       }
     ]
-  }
+  },
+   "updateFeedUrl": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/prerelease2"
 }
