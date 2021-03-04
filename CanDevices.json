@@ -1,19 +1,50 @@
 {
-	"canDevices": [
-		{
-			"name": "SPARK MAX", 
-			"arbIds": [33888448, 33888256], 
-		 	"usbIds":[{
-				"pid": 41742,
-				"vid": 1155
-			}, {
-				"pid": 41904,
-				"vid": 1155
-			}]
-		},
-		{"name": "Power Distribution Panel", "arbIds": [134564032], "usbIds":[]},
-		{"name": "Talon SRX", "arbIds": [33821760], "usbIds":[]},
-		{"name": "roboRIO", "arbIds": [134487104], "usbIds":[], "timeoutMs":5000},
-		{"name": "Victor SPX", "arbIds": [17044544], "usbIds":[]}
-	]
+  "canDevices": [
+    {
+      "arbIds": [
+        33888448,
+        33888256
+      ],
+      "name": "SPARK MAX",
+      "usbIds": [
+        {
+          "pid": 41742,
+          "vid": 1155
+        },
+        {
+          "pid": 41904,
+          "vid": 1155
+        }
+      ]
+    },
+    {
+      "arbIds": [
+        134564032
+      ],
+      "name": "Power Distribution Panel",
+      "usbIds": []
+    },
+    {
+      "arbIds": [
+        33821760
+      ],
+      "name": "Talon SRX",
+      "usbIds": []
+    },
+    {
+      "arbIds": [
+        134487104
+      ],
+      "name": "roboRIO",
+      "timeoutMs": 5000,
+      "usbIds": []
+    },
+    {
+      "arbIds": [
+        17044544
+      ], 
+      "name": "Victor SPX", 
+      "usbIds":[]
+    }
+  ]
 }
