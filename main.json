@@ -17,5 +17,5 @@
     "publicChannels": ["Public FRC Beta", "Public FTC Beta"],
     "showSoftwareChannels": "true",
     "updateFeedUrl": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master",
-    "telemetrtyUploadUrl": "http://localhost:3300/telemetry"
+    "telemetryUploadUrl": "http://localhost:3300/telemetry"
 }
