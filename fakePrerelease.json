@@ -1,29 +1,16 @@
 {
-  "channelName": "Fake Channel",
+  "channelName": "Driver Hub",
   "plugins": {
-    "Fake": [
+    "RevHub": [
       {
-        "permanentSoftwareName": "fake-application",
-        "versionString": "1.3",
-        "versionCode": 4,
-        "releaseDate": "2020-07-17T18:25:43.511Z",
-        "sha256": "73033cd178c0639070deae157cb21495f1cd946ac01b683d7e2ffd23d15b8ef2",
-        "expectedFileSizeMiB": 0.068,
-        "url": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/downloads/fakeApplication1_3.txt",
-        "releaseNotes": 
-          "## Version 1.3\n * Added new 1.3 things\n * Fixed issues with 1.2\n\n"
-      }
-    ], "RevHub": [
-      {
-        "permanentSoftwareName":"robot-controller-app",
-        "versionString": "6.2",
-        "versionCode": 40,
-        "releaseDate": "2020-07-17T18:25:43.511Z",
-        "sha256": "94c5e5ba4a86b81a99fa88ff8a14856f37d5faf7c77361437be988e89682b930",
-        "expectedFileSizeMiB": 40.0,
-        "url": "https://github.com/sdarrow3/HardwareClientJSON/blob/master/downloads/fakeRCApp6_2.apk",
-        "releaseNotes": 
-          "## Version 6.2\n * Fake Version"
+        "expectedFileSizeMiB": 368,
+      "permanentSoftwareName": "driver-hub-os",
+      "releaseDate": "2021-02-22T17:45:24.910Z",
+      "releaseNotes": "# Driver Hub OS Changelog\n## 0.0.4 (2020-02-22)\n* Shows app labels in launcher when in landscape mode, and reduces home screen grid to 4x3 (from 4x4)\n* Shows Driver Hub OS version in the Settings app\n* Shows explanation of how to exit immersive mode the first time that the Driver Station app is launched\n* Adds support for the Etpark controller in PS4 mode\n* Adds WifiLog.txt log file\n* Adds Text to Speech support (may switch to a better voice in the future)\n* Fixes issue where the Driver Station app would not auto-launch if the screen lock was set to \"None\"\n* Fixes issue where the screenshot button would not show up in the navigation bar even if it was enabled in the Settings app\n\n## 0.0.3 (2020-02-05)\n* Makes lots of tweaks and fixes to the power management code\n* Auto-grants runtime permissions to pre-installed DS app\n* Auto-launches DS app on boot (by default)\n* Removes letters from lockscreen PIN keypad\n* Improves behavior of the Display Size setting\n* Enables [Doze mode](https://developer.android.com/training/monitoring-device-state/doze-standby) to improve standby times\n* Increases default volume\n* Shows battery percentage in status bar by default\n\n## 0.0.2 (2020-01-08)\n* Allows the device to be used with the ports facing downwards\n* Fixes issue where time updates would not be written to the real-time clock due to insufficient permissions",
+      "sha256": "AA7F410E45284EADC8918DD9690C027D0DBF39B5E1ECE2E4D19FC66E9BACD296",
+      "url": "https://www.revrobotics.com/content/sw/rev-hw-client/files/driverhub/DriverHubOS-0.0.4.zip",
+      "versionCode": 4,
+      "versionString": "0.0.4"
       }
     ]
   }
