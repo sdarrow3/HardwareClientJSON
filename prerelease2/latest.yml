@@ -1,9 +1,9 @@
-version: 1.2.7
+version: 1.2.8
 files:
-  - url: REV-Hardware-Client-Setup-1.2.7.exe
-    sha512: T3NDeBbmYgbjjun3RaXycCNV8Uou+7abV0+AISW5jehAozcyRX5u4s3Pd0/ckpHaqMmcfMWTBpGtV26+uroY/A==
+  - url: REV-Hardware-Client-Setup-1.2.8.exe
+    sha512: +n6J7NOCT3lkQCaseWdVPpoYsySyCm2kf/RqiVxzrhpPYB8e+hiZD9un9x88lBIUYHD8+KEOwemOsDB4126ibA==
     size: 125794280
-path: REV-Hardware-Client-Setup-1.2.7.exe
-sha512: T3NDeBbmYgbjjun3RaXycCNV8Uou+7abV0+AISW5jehAozcyRX5u4s3Pd0/ckpHaqMmcfMWTBpGtV26+uroY/A==
+path: REV-Hardware-Client-Setup-1.2.8.exe
+sha512: +n6J7NOCT3lkQCaseWdVPpoYsySyCm2kf/RqiVxzrhpPYB8e+hiZD9un9x88lBIUYHD8+KEOwemOsDB4126ibA==
 releaseDate: '2021-04-21T23:03:48.539Z'
-releaseNotes: "## Version 1.2.7 \n * Supports new hubs"
+releaseNotes: "## Version 1.2.8 \n * Supports new hubs"
