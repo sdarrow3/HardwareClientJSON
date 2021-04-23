@@ -2,7 +2,7 @@ version: 1.2.8
 files:
   - url: REV-Hardware-Client-Setup-1.2.8.exe
     sha512: Tkc/UpspfMR/u4JHd9ZPh0cfcWNGucVYaYIN+9xjQIknK9/BjO6pZnzq4bzGgf7k6pYLxL9gRXh1NmKC8ZSG0g==
-    size: 125793920
+    size: 125794960
 path: REV-Hardware-Client-Setup-1.2.8.exe
 sha512: Tkc/UpspfMR/u4JHd9ZPh0cfcWNGucVYaYIN+9xjQIknK9/BjO6pZnzq4bzGgf7k6pYLxL9gRXh1NmKC8ZSG0g==
 releaseDate: '2021-04-21T23:03:48.539Z'
