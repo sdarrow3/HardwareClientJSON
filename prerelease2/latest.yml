@@ -6,4 +6,4 @@ files:
 path: REV-Hardware-Client-Setup-1.2.8.exe
 sha512: +n6J7NOCT3lkQCaseWdVPpoYsySyCm2kf/RqiVxzrhpPYB8e+hiZD9un9x88lBIUYHD8+KEOwemOsDB4126ibA==
 releaseDate: '2021-04-21T23:03:48.539Z'
-releaseNotes: "## Version 1.2.8 \n * Supports new hubs"
+releaseNotes: "## Version 1.2.8 \n * Supports Pneumatic and Power Hubs"
