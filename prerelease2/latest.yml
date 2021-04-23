@@ -1,9 +1,9 @@
 version: 1.2.8
 files:
   - url: REV-Hardware-Client-Setup-1.2.8.exe
-    sha512: +n6J7NOCT3lkQCaseWdVPpoYsySyCm2kf/RqiVxzrhpPYB8e+hiZD9un9x88lBIUYHD8+KEOwemOsDB4126ibA==
+    sha512: Tkc/UpspfMR/u4JHd9ZPh0cfcWNGucVYaYIN+9xjQIknK9/BjO6pZnzq4bzGgf7k6pYLxL9gRXh1NmKC8ZSG0g==
     size: 125793920
 path: REV-Hardware-Client-Setup-1.2.8.exe
-sha512: +n6J7NOCT3lkQCaseWdVPpoYsySyCm2kf/RqiVxzrhpPYB8e+hiZD9un9x88lBIUYHD8+KEOwemOsDB4126ibA==
+sha512: Tkc/UpspfMR/u4JHd9ZPh0cfcWNGucVYaYIN+9xjQIknK9/BjO6pZnzq4bzGgf7k6pYLxL9gRXh1NmKC8ZSG0g==
 releaseDate: '2021-04-21T23:03:48.539Z'
 releaseNotes: "## Version 1.2.8 \n * Supports Pneumatic and Power Hubs"
