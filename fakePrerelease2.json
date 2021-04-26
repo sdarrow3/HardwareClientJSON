@@ -30,6 +30,6 @@
   },
    "updateFeedUrl": "https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/prerelease2",
   "additionalFiles": {
-    "CanBus": ["https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/CanDevices.json"]
+    "CanBus": ["https://raw.githubusercontent.com/sdarrow3/HardwareClientJSON/master/prerelease2/CanDevices.json"]
   }
 }
