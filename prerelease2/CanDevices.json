@@ -1,0 +1,60 @@
+{
+  "canDevices": [
+    {
+      "arbIds": [
+        33888448,
+        33888256
+      ],
+      "name": "SPARK MAX",
+      "usbIds": [
+        {
+          "pid": 41742,
+          "vid": 1155
+        },
+        {
+          "pid": 41904,
+          "vid": 1155
+        }
+      ]
+    },
+    {
+      "arbIds": [
+        134564032
+      ],
+      "name": "Power Distribution Panel",
+      "usbIds": []
+    },
+    {
+      "arbIds": [
+        33821760
+      ],
+      "name": "Talon SRX",
+      "usbIds": []
+    },
+    {
+      "arbIds": [
+        134487104
+      ],
+      "name": "roboRIO",
+      "timeoutMs": 5000,
+      "usbIds": []
+    },
+    {
+      "arbIds": [
+        17044544
+      ], 
+      "name": "Victor SPX", 
+      "usbIds":[]
+    },
+    {
+      "arbIds": [
+        134551552, 134551616, 134551680, 134551745
+      ], 
+      "name": "New Hubs", 
+      "usbIds":[{
+          "pid": 41905,
+          "vid": 1155
+        }]
+    }
+  ]
+}
